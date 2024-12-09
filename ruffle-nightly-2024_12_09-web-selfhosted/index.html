@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>GitHub Pages Test</title>
+    <title>Ruffle Test - SWF Game</title>
+    <!-- 같은 폴더의 ruffle.js 로드 -->
     <script src="ruffle.js"></script>
 </head>
 <body>
-    <h1>GitHub Pages Test</h1>
-    <p>SWF 파일 로드 테스트:</p>
-    <ruffle-embed src="tfile.swf" style="width:800px; height:600px;"></ruffle-embed>
+    <h1>SWF Game</h1>
+    <!-- Ruffle로 SWF 파일 임베드 -->
+    <div id="game-container">
+        <ruffle-embed src="tfile.swf" style="width:800px; height:600px;"></ruffle-embed>
+    </div>
 </body>
 </html>
